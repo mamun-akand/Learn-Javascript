@@ -32,6 +32,8 @@
 //     }, 3000);
 // });
 
+// // console.log(myPromise);
+
 // myPromise
 //     .then(function (value) {
 //         console.log(value);
@@ -98,3 +100,4 @@ enroll()
     .catch(function (err) {
         console.log(err);
     })
+
