@@ -36,8 +36,8 @@
 //     .then(function (value) {
 //         console.log(value);
 //     })
-//     .catch(function (value) {
-//         console.log(value);
+//     .catch(function (err) {
+//         console.log(err);
 //     })
 
 
@@ -95,6 +95,6 @@ enroll()
     .then(function (value) {
         console.log(value);
     })
-    .catch(function (value) {
-        console.log(value);
+    .catch(function (err) {
+        console.log(err);
     })
