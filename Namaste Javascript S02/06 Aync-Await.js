@@ -27,6 +27,9 @@ handlePromise();
 
 
 
+
+
+
 // function getData() {
 //     p.then(function (res) {
 //         console.log(res);   //this line printed later
