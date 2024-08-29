@@ -1,4 +1,4 @@
-"use strict"; //to go to strict mode
+// "use strict"; //to go to strict mode
 
 // "This" keyword in Global space
 
@@ -49,7 +49,7 @@ student1.printName.call(student2); // call
 const myObj = {
     a: 10,
     x: () => {
-        console.log(this);  // it provides "this" value of the "enclosing lexical context where it is now";
+        console.log(this);  // it provides "this" value of the "enclosing lexical context, where it is now";
     }
 }
 myObj.x();
@@ -62,7 +62,7 @@ const myObj2 = {
     x: function () {
         // console.log(this); //work like this actuall
         const y = () => {
-            console.log(this);  // it provides "this" value of the "enclosing lexical context. where it is now";
+            console.log(this);  // it provides "this" value of the "enclosing lexical context, where it is now";
         }
         y();
     }
