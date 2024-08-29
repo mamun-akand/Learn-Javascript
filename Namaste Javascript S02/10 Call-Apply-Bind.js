@@ -1,5 +1,6 @@
-// call : function borrowing/sharing
+// call/apply/bind: sharing function/methods
 
+// call : 
 //example-1
 const student1 = {
     name: "Liza",
