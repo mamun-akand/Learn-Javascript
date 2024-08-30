@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 // 01 without variable declaration possible in non-strict
 
