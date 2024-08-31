@@ -7,14 +7,34 @@
     <title>Document</title>
 </head>
 
-<body>
+<body onload="onLoadFunc()">
     <p id="demo">HI</p>
     <p class="test_class">Esraat</p>
     <p class="test_class">Liza</p>
-    <a id="myId" href="html.com">Link</a>
+    <a id="myId" href="html.com">Link</a> <br> <br>
 
     <!-- <script src="01 DOM Method.js"></script> -->
-    <script src="03 DOM Change Content.js"></script>
+    <!-- <script src="03 DOM Change Content.js"></script> -->
+
+    <!-- events   -->
+
+    <!-- On Click  -->
+    <button id="title1" onclick="myFuncOnClick1()">CLICK ME 1</button>
+    <button id="title2" onclick="myFuncOnClick2(this)">CLICK ME 2</button>
+    <button id="title3" onclick="this.innerHTML = 'Thanks'">CLICK ME 3</button>
+    <button id="myButton">CLICK ME 4</button> <br> <br>
+
+    <!-- On Input  -->
+    <input oninput="onInputFunc(this)" type="text" placeholder="Enter Girl Friend Name"> <br> <br>
+
+    <!-- On Change  -->
+    <input onchange="onChangeFunc(this)" type="text" placeholder="Enter Name"> <br> <br>
+
+    <!-- On Mouse Over  -->
+    <p onmouseover="onMouseOverFunc(this)" id="txt"> Mouse Over Me </p>
+
+
+    <script src="04 DOM Events.js"></script>
 </body>
 
 </html>
