@@ -13,11 +13,9 @@
     <p class="test_class">Liza</p>
     <a id="myId" href="html.com">Link</a> <br> <br>
 
-    <!-- <script src="01 DOM Method.js"></script> -->
-    <!-- <script src="03 DOM Change Content.js"></script> -->
 
-    <!-- events   -->
 
+    <!-- Events Start  -->
     <!-- On Click  -->
     <button id="title1" onclick="myFuncOnClick1()">CLICK ME 1</button>
     <button id="title2" onclick="myFuncOnClick2(this)">CLICK ME 2</button>
@@ -30,11 +28,39 @@
     <!-- On Change  -->
     <input onchange="onChangeFunc(this)" type="text" placeholder="Enter Name"> <br> <br>
 
-    <!-- On Mouse Over  -->
-    <p onmouseover="onMouseOverFunc(this)" id="txt"> Mouse Over Me </p>
+    <!-- On Mouse Over and Out  -->
+    <p onmouseover="onMouseOverFunc(this)" onmouseout="onMouseOutFunc(this)" id="txt"> Mouse Over Me </p>
+
+    <!-- On Mouse Down and Up  -->
+    <p onmousedown="onMouseDownFunc(this)" onmouseout="onMouseUpFunc(this)" id="txt"> Chepe Dhoro </p>
+
+    <!-- On Focus and On Blur -->
+    <input onfocus="onFocusFunc(this)" onblur="onBlurFunc(this)" type="text" placeholder="Enter Name"> <br> <br>
+    <!-- Events End -->
 
 
+
+    <!-- Event-Listerner Starts  -->
+    <p id="myEventListener">CLICK Event-Listerner</p>
+    <p id="removeEventListener">MOUSE-OVER to Get Random Number</p>
+    <button id="stopButton">Click to Stop Random Number</button> <br> <br>
+    <!-- Event-Listerner Ends  -->
+
+
+
+    <!-- Event Bubbling and Event Capturing start -->
+    <div id="containerDiv">
+        <button id="insideP">Bubbling and Capturing</button>
+    </div>
+    <!-- Event Bubbling and Event Capturing end -->
+
+
+
+    <!-- <script src="01 DOM Method.js"></script> -->
+    <!-- <script src="03 DOM Change Content.js"></script> -->
     <script src="04 DOM Events.js"></script>
+    <!-- <script src="05 DOM Event Listeners.js"></script> -->
+    <script src="06 Event Bubbling & Capturing.js"></script>
 </body>
 
 </html>

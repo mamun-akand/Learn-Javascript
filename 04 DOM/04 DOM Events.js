@@ -18,16 +18,35 @@ function onLoadFunc() {
 }
 
 // On Input
-function onInputFunc(id) {
-    id.value = id.value.toUpperCase();
+function onInputFunc(x) {
+    x.value = x.value.toUpperCase();
 }
 
 // On Input
-function onChangeFunc(id) {
-    id.value = id.value.toUpperCase();
+function onChangeFunc(x) {
+    x.value = x.value.toUpperCase();
 }
 
-// On Mouse Over
-function onMouseOverFunc(id) {
-    id.innerHTML = "Chuye Dile amay";
+// On Mouse Over and On Mouse Out 
+function onMouseOverFunc(x) {
+    x.innerHTML = "Chuye Dile amay";
+}
+function onMouseOutFunc(x) {
+    x.innerHTML = "Shoytan Chele";
+}
+
+// On Mouse Down and Up
+function onMouseDownFunc(x) {
+    x.innerHTML = "Charo Amay";
+}
+function onMouseUpFunc(x) {
+    x.innerHTML = "Uffff betha lagse";
+}
+
+// On Focus and On Blur
+function onFocusFunc(x) {
+    x.style.background = "Yellow";
+}
+function onBlurFunc(x) {
+    x.style.background = "White";
 }
